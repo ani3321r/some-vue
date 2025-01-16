@@ -1,4 +1,17 @@
-<script setup></script>
+<script setup>
+import { defineProps } from 'vue'
+
+defineProps({
+  title: {
+    type: String,
+    default: 'Welcome to Vue Dev',
+  },
+  subtitle: {
+    type: String,
+    default: 'Know some of the basics of vue'
+  }
+})
+</script>
 
 <template>
   <section class="bg-green-700 py-20 mb-4">
@@ -9,10 +22,10 @@
           <h1
             class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl"
           >
-            Welcome to Vue Dev
+          {{ title }}
           </h1>
           <p class="my-4 text-xl text-white">
-            Know some of the basics of vue
+            {{ subtitle }}
           </p>
         </div>
       </div>
