@@ -1,0 +1,55 @@
+{
+  "topics":
+  [
+    {
+      "title": "Introduction to Vue.js",
+      "description": "Learn the basics of Vue.js, including its purpose, benefits, and how it compares to other frameworks.",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "Setting Up the Development Environment",
+      "description": "A step-by-step guide to installing Node.js, Vue CLI, and setting up your first Vue project."
+    },
+    {
+      "id": "3",
+      "title": "Vue Instance and Template Syntax",
+      "description": "Understand the Vue instance, basic template syntax, and how Vue renders content dynamically."
+    },
+    {
+      "id": "4",
+      "title": "Directives in Vue.js",
+      "description": "Explore Vue directives such as v-bind, v-if, v-for, and v-model for reactive behavior."
+    },
+    {
+      "id": "5",
+      "title": "Components and Props",
+      "description": "Learn how to break your application into reusable components and pass data using props."
+    },
+    {
+      "id": "6",
+      "title": "Event Handling and Methods",
+      "description": "Discover how to handle user interactions with event listeners and define custom methods."
+    },
+    {
+      "id": "7",
+      "title": "Computed Properties and Watchers",
+      "description": "Understand the use of computed properties for derived state and watchers for reacting to data changes."
+    },
+    {
+      "id": "8",
+      "title": "Vue Router Basics",
+      "description": "Set up Vue Router to create a multi-page application with navigation and routes."
+    },
+    {
+      "id": "9",
+      "title": "State Management with Vuex",
+      "description": "An introduction to Vuex for managing state in larger applications and the store-pattern basics."
+    },
+    {
+      "id": "10",
+      "title": "Building and Deploying Your Vue App",
+      "description": "Learn how to build your Vue project for production and deploy it using services like Netlify or Vercel."
+    }
+  ]  
+}
